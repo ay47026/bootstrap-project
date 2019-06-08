@@ -1,0 +1,853 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>bootstrap</title>
+	<mata  charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script type="text/javascript" src="js/jquery.min."></script>
+		<script type="text/javascript" src="js/popper.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #262626; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+</head>
+<body>
+<div class="container-fluid" style="padding: 20px;">
+	<div class="row">
+		<div class="col-3" style="border: 1px solid #262626; height: 600px; overflow-y: scroll;">	
+            <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;">  Holiday theme</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">Honimoon</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">Beach</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">Boutique</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">Budget</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck5" name="example2">
+      <label class="custom-control-label" for="customCheck5">Luxury</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck6" name="example2">
+      <label class="custom-control-label" for="customCheck6">Family</label>
+    </div></li>
+
+            		</ul>
+            	</div>
+            </div>
+             <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;"> Region </span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">Across India</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">North India</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">South India</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">East India</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck5" name="example2">
+      <label class="custom-control-label" for="customCheck5">West india</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck6" name="example2">
+      <label class="custom-control-label" for="customCheck6">central India</label>
+    </div></li>
+      <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck6" name="example2">
+      <label class="custom-control-label" for="customCheck6">international</label>
+    </div></li>
+
+            		</ul>
+            	</div>
+            </div>
+
+
+
+    <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;">  Activity</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">Water sports</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">Treking</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">Snow sport</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">Extreme sport</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck5" name="example2">
+      <label class="custom-control-label" for="customCheck5">Adventures</label>
+    </div></li>
+      
+
+              	</ul>
+            	</div>
+            </div>
+            
+
+                <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;">  best time to visit</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">jan,feb,mar</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">Apr,May,Jun</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">Jul,Aug,Sep,</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">Out,Nov,Dec,</label>
+    </div></li>
+
+   
+
+            		</ul>
+            	</div>
+            </div>
+            
+
+                <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;">  Popularty</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">Must Visit</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">Offbeat</label>
+    </div></li>
+   	</ul>
+            	</div>
+            </div>
+            
+
+    <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;">  Place</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">Simla</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">Manali</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">Haridwar</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">Goa</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck5" name="example2">
+      <label class="custom-control-label" for="customCheck5">Delhi</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck6" name="example2">
+      <label class="custom-control-label" for="customCheck6">Kashmir</label>
+    </div></li>
+
+            		</ul>
+            	</div>
+            </div>
+            
+
+                <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;">  Budget per person</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3" >
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">less than 10,000</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">10,000-20,000</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">20,000-30,000</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">30,000-40,000</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck5" name="example2">
+      <label class="custom-control-label" for="customCheck5">40,000-50,000</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck6" name="example2">
+      <label class="custom-control-label" for="customCheck6">50,000-60,000</label>
+    </div></li>
+
+  <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck6" name="example2">
+      <label class="custom-control-label" for="customCheck6">Above 60,000</label>
+    </div></li>
+            		</ul>
+            	</div>
+            </div>
+      
+               <div class="row">
+            	<div class="col-12">
+            		<span style="font-family: sans-serif;font-size: 20px;color :red;font-weight: bold;"> Duration</span>
+            		<ul style=" list-style-type: none; margin-top: 8px; border-bottom: 2px solid #262626;">
+            			<li><span>  <div class="custom-control custom-checkbox mb-3" >
+      <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+      <label class="custom-control-label" for="customCheck1">0-4 Days</label>
+    </div></li>
+    <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+      <label class="custom-control-label" for="customCheck2">5-9 Days</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck3" name="example2">
+      <label class="custom-control-label" for="customCheck3">10-15 Days</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck4" name="example2">
+      <label class="custom-control-label" for="customCheck4">16-25 days</label>
+    </div></li>
+       <li><span>  <div class="custom-control custom-checkbox mb-3">
+      <input type="checkbox" class="custom-control-input" id="customCheck5" name="example2">
+      <label class="custom-control-label" for="customCheck5">25 days+</label>
+    </div></li>
+      
+            		</ul>
+            	</div>
+            </div>
+             
+
+
+		</div>
+
+
+
+		<div class="col-9" style="">
+            
+	<div class="row slideanim " style="border-bottom:1px solid #262626;padding: 10px;">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+       	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+     	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+  </div>
+
+	<div class="row slideanim " style="border-bottom:1px solid #262626;padding: 10px; margin-bottom: 10px;">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+       	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+     	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+  </div>
+
+	<div class="row slideanim " style="border-bottom:1px solid #262626;padding: 10px; margin-bottom: 10px;">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+       	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+     	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+  </div>
+
+	<div class="row slideanim " style="border-bottom:1px solid #262626;padding: 10px;margin-bottom: 10px;">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+       	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+     	             		<div class="row">
+	             		<div class="col-md-12">
+	             <span style="font-family: sans-serif;font-size: 15px;font-weight: bold; margin: 3%;">1. Nainital Utrakhand
+	             		</span>
+	                 	</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<img src="images/NAINITAL.jpg" width="100%">
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray;font-size: 10px;margin-left: 3%;">310 km from delhi</span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;color: gray; font-size: 10px;margin-left : 3%;">Current tempreture:<i class='fas fa-cloud-sun'> 12-21&#8451;</i></span>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p  style="font-family: sans-serif;font-weight: bold;text-align: left; font-size: 14px;margin-left: 3%;">Known For : <a href="#">Eco Cave Gardens | Naini Lake </a></p>
+	             		</div>
+	             	</div>
+	             	<div class="row">
+	             		<div class="col-md-12">
+	             			<p style="font-family: sans-serif;text-align: left; font-size: 15px;margin-left: 3%;margin-top: 5px;">Nainital with its beautiful lakes, temples and exotic scenery around is the perfect honeymoon paradise nestled in the arms of Kumaon Hills.</p>
+	             		</div>
+	             	</div>
+	             		<div class="row">
+	             		<div class="col-md-12">
+	             			<span  style="font-family: sans-serif;margin-top: 5px; font-size: 14px;margin-left: 3%;">
+	             				<b>Best Time</b> : October to March
+	             			</span>
+	             		</div>
+	             	</div>
+
+      </div>
+    </div>
+  </div>
+
+	             </div>
+
+            </div>
+
+
+
+
+			</div>
+	
+	</div>
+
+
+</div>
+
+
+</body>
+</html>
